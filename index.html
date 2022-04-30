@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Square+Peg&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>Ngopi ae</h1>
+      </div>
+
+      <nav class="drop-content">
+        <ul id="dropdown" class="dropDown-content">
+          <li><a href="#jeniskopi">Jenis Kopi</a></li>
+          <li><a href="#produkkami">Produk Kami</a></li>
+          <li><a href="#temukankami">Temukan Kami</a></li>
+          <li><a href="#tentangkami">Tentang Kami</a></li>
+        </ul>
+
+        <div class="dropdown">
+          <div onclick="myFunction()" class="dropbtn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#jeniskopi">Jenis Kopi</a>
+            <a href="#produkkami">Produk Kami</a>
+            <a href="#temukankami">Temukan Kami</a>
+            <a href="#tentangkami">Tentang Kami</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article id="jeniskopi" class="card1">
+          <h2 class="card">Jenis Kopi</h2>
+          <p class="p">Kopi kami terbuat dari biji kopi pilihan.</p>
+
+          <article class="card">
+            <h3>Kopi Gayo</h3>
+            <img src="assets/gambar/gayo.jpg" class="featured-image" alt="kopi gayo" />
+            <p>
+              Merupakan varietas kopi arabika yang menjadi salah satu komoditi unggulan yang berasal dari Dataran tinggi Gayo, Aceh Tengah, Indonesia. Kopi ini telah mendapatkan Fair Trade Certified dari Organisasi Internasional Fair Trade.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Kopi Toraja</h3>
+            <img src="assets/gambar/toraja.jpg" class="featured-image" alt="kopi toraja" />
+            <p>
+              Satu varian populer yang memiliki kualitas terbaik di Indonesia. Kopi yang berasal dari tanah Toraja, Sulawesi Selatan ini memiliki rasa yang khas dan karakter yang unik. Bernama latin Celeber Kalosi, kopi Toraja telah dikenal
+              oleh para pencinta kopi di seluruh dunia.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Kopi Java</h3>
+            <img src="assets/gambar/java.jpg" class="featured-image" alt="kopi java" />
+            <p>
+              Salah satu jenis kopi yang terkenal enak adalah kopi jawa (java).Sesuai dengan namanya, kopi jawa ini adalah salah satu kopi khas asli dari Pulau jawa. Jenis kopi yang satu ini tumbuh subur di Pulau Jawa. Kopi jawa ini
+              mempunyai citarasa kopi yang khas, sehingga banyak orang yang menyukai kopi dari pulau yang terpadat di wilayah Negara Republik Indonesia.
+            </p>
+          </article>
+        </article>
+
+        <article id="produkkami" class="card1">
+          <h2 class="card">Produk Kami</h2>
+
+          <div class="container card">
+            <div class="flex-column">
+              <div class="flex-row">
+                <div class="produk">
+                  <div>
+                    <img src="assets/gambar/espreso.jpg" class="produk-image" alt="espresso" />
+                    <figcaption>Espresso</figcaption>
+                    <p>Rp. 17.000,-</p>
+                  </div>
+                </div>
+                <div class="produk">
+                  <div>
+                    <img src="assets/gambar/latte.jpg" class="produk-image" alt="espresso" />
+                    <figcaption>Coffee Latte</figcaption>
+                    <p>Rp. 15.000,-</p>
+                  </div>
+                </div>
+                <div class="produk">
+                  <div>
+                    <img src="assets/gambar/cappucino.jpg" class="produk-image" alt="espresso" />
+                    <figcaption>Cappucino</figcaption>
+                    <p>Rp. 14.000,-</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex-row">
+                <div class="produk">
+                  <div>
+                    <img src="assets/gambar/fp.jpg" class="produk-image" alt="latte" />
+                    <figcaption>French Press</figcaption>
+                    <p>Rp. 14.000,-</p>
+                  </div>
+                </div>
+                <div class="produk">
+                  <div>
+                    <img src="assets/gambar/kopiv60.jpg" class="produk-image" alt="latte" />
+                    <figcaption>V 60</figcaption>
+                    <p>Rp. 16.000,-</p>
+                  </div>
+                </div>
+                <div class="produk">
+                  <div>
+                    <img src="assets/gambar/cokelat.jpg" class="produk-image" alt="espresso" />
+                    <figcaption>Chocolate</figcaption>
+                    <p>Rp. 15.000,-</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article id="temukankami" class="card1">
+          <h2 class="card">Temukan Kami</h2>
+          <section class="card">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11197.128472769507!2d110.40812429225441!3d-7.151101677543872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70861ac093d659%3A0x9f4321b5c4b194f1!2sRundungputih%2C%20Gedanganak%2C%20Kec.%20Ungaran%20Tim.%2C%20Kabupaten%20Semarang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1651053146522!5m2!1sid!2sid"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+
+            <div class="box">
+              <h3>Jam Operasional</h3>
+              <table>
+                <tr>
+                  <th>Senin</th>
+                  <td></td>
+                  <td>16.00 - 23.00</td>
+                  <td></td>
+                  <td>
+                    <img src="assets/gambar/fb.JPG" align="left" class="icon" alt="facebook" />
+                    <a href="www.facebook.com" class="boxa">Ngopi ae</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Selasa</th>
+                  <td></td>
+                  <td>16.00 - 23.00</td>
+                  <td></td>
+                  <td>
+                    <img src="assets/gambar/ig.JPG" align="left" class="icon" alt="instagram" />
+                    <a href="www.instagram.com" class="boxa">@Ngopiae</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Rabu</th>
+                  <td></td>
+                  <td>16.00 - 23.00</td>
+                </tr>
+                <tr>
+                  <th>Kamis</th>
+                  <td></td>
+                  <td>16.00 - 23.00</td>
+                </tr>
+                <tr>
+                  <th>Jumat</th>
+                  <td></td>
+                  <td>16.00 - 01.00</td>
+                </tr>
+                <tr>
+                  <th>Sabtu</th>
+                  <td></td>
+                  <td>16.00 - 01.00</td>
+                </tr>
+                <tr>
+                  <th>Minggu</th>
+                  <td></td>
+                  <td>16.00 - 23.00</td>
+                </tr>
+              </table>
+            </div>
+          </section>
+        </article>
+
+        <aside class="container2">
+          <article class="card">
+            <h2 id="tentangkami" class="card">Tentang Kami</h2>
+
+            <figure class="tentang">
+              <img src="assets/gambar/potoPropil1.jpg" class="foto-founder" alt="founder" />
+            </figure>
+
+            <section class="tentang-nama">
+              <h3 class="text-h3">Founder</h3>
+
+              <ul class="list-bio">
+                <li><p>Wahyu Tejo Mukti</p></li>
+                <li><p>wahyut88@gmail.com</p></li>
+                <li><p>+628561248743</p></li>
+              </ul>
+            </section>
+          </article>
+        </aside>
+      </div>
+      <script src="assets/toggle.js"></script>
+    </main>
+    <footer>
+      <p>Minum kopi untuk semua kalangan &#169; 2022, Ngopi ae</p>
+    </footer>
+  </body>
+</html>

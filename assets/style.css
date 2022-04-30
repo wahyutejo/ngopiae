@@ -1,0 +1,336 @@
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #e0d8b0;
+}
+
+nav {
+  background-color: #1c0a00;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  text-align: justify;
+  padding: 5px;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 20px;
+}
+
+.dropdown {
+  display: none;
+}
+
+header {
+  display: inline;
+}
+
+.jumbotron {
+  font-family: "Square Peg", "Quicksand", sans-serif;
+  background-color: #1c0a00;
+  color: #e0d8b0;
+  text-align: justify;
+  font-size: 30px;
+  word-spacing: 5px;
+  padding: 3px;
+  text-align: center;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #e0d8b0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card1 {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.produk-image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #1c0a00;
+  text-align: center;
+  font-weight: bold;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  width: auto;
+  height: auto;
+  background-color: #5c3d2e;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.produk {
+  display: flex;
+  flex-grow: 1;
+  margin: 10px;
+  font-size: 1em;
+  text-align: center;
+  padding: 0;
+  border-radius: 10px;
+  background-color: #e0c097;
+  cursor: pointer;
+}
+
+.produk:hover {
+  border-style: double;
+  font-size: 1.2em;
+  background-color: #b85c38;
+}
+
+figcaption {
+  font-weight: bold;
+  color: black;
+}
+
+.produk p {
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.box {
+  padding: 20px;
+  margin: 30px;
+}
+
+table td {
+  padding-left: 50px;
+}
+
+.boxa {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+}
+
+.tentang-nama {
+  float: left;
+  width: 50%;
+  margin: 5px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+.tentang {
+  float: left;
+  width: 25%;
+  margin: 5px;
+}
+
+.foto-founder {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.list-bio {
+  list-style-type: none;
+}
+
+.container2 {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.text-h3 {
+  padding-left: 40px;
+}
+
+.p {
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .card,
+  #content {
+    margin: 0px;
+  }
+
+  figcaption {
+    font-size: 20px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .map {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tentang-nama,
+  .tentang {
+    float: none;
+    width: 100%;
+  }
+
+  .tentang-nama {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+
+  .tentang {
+    margin: 5px;
+  }
+
+  .box {
+    padding: 1px;
+    margin: 1px;
+  }
+
+  .container2 {
+    padding: 55px;
+  }
+
+  .container {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav,
+  #content {
+    width: 100%;
+  }
+
+  .card {
+    margin: 10px;
+  }
+  nav ul {
+    display: none;
+  }
+
+  nav {
+    padding: 10px;
+    position: block;
+  }
+
+  .jumbotron {
+    padding: 5px;
+  }
+
+  table td {
+    padding-left: 0;
+  }
+
+  figcaption {
+    font-size: 10px;
+  }
+
+  .produk p {
+    font-size: 10px;
+  }
+
+  .dropbtn {
+    font-size: 16px;
+    color: #5c3d2e;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    border-radius: 3px;
+  }
+
+  span {
+    width: 30px;
+    height: 3px;
+    background-color: #e0c097;
+  }
+
+  .dropbtn:focus {
+    background-color: #5c3d2e;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e0c097;
+    border-radius: 10px;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-content a {
+    color: black;
+    font-weight: 300;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .show {
+    display: block;
+  }
+}
